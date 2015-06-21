@@ -1,5 +1,5 @@
 
-## Implements a cache to store the inverse of a matrix
+## Implements a cache to store the inverse of matrices
 
 ## Creates a list of functions to store/retrieve a matrix and it's inverse
 ## Argument, `m': a matrix
@@ -25,7 +25,7 @@ makeCacheMatrix <- function(m = matrix()) {
     list(get = get, set = set, getInverse = getInverse, setInverse = setInverse)
 }
 
-## Computes the inverse of the matrix enclosed by makeCacheMatrix.
+## Computes the inverse of the matrix enclosed by makeCacheMatrix list.
 ## If the inverse has already been calculated (and the matrix has not changed), 
 ## then cacheSolve retrieves the inverse from the cache
 ## Argument `x': a makeCacheMatrix list containing a matrix `m'
